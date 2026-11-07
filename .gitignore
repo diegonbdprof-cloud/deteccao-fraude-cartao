@@ -1,0 +1,24 @@
+# CSV público e qualquer cache local. O dataset não entra no git.
+data/
+*.csv
+cache/
+.cache/
+
+# Modelos ajustados e saídas binárias de treino.
+models/
+*.pkl
+*.joblib
+*.ubj
+*.bst
+
+# Ambiente e bytecode.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+
+# Logs locais.
+*.log
